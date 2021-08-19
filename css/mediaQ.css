@@ -1,0 +1,630 @@
+@media (max-width: 1280px) {
+  .about-img a {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .modal-container {
+    transform: translateX(-65px);
+  }
+  /* .main-slider {
+    padding-bottom: 19px;
+  } */
+}
+
+@media (min-width: 991px) and (max-width: 1280px) {
+  .main-slider .slider-info {
+    width: 60% !important;
+    right: 4.5%;
+    bottom: 6%;
+  }
+  .main-slider .slider-info h3 {
+    font-size: 29px;
+  }
+  .main-slider .slider-info p {
+    font-size: 18px;
+  }
+  .about-info h3 span {
+    margin-bottom: 7px;
+    font-size: 27px;
+  }
+  .about-info p {
+    font-size: 16px;
+  }
+  .box-content h5 {
+    font-size: 16px;
+  }
+  .box-content p {
+    font-size: 11px;
+  }
+  .about-boxes .box {
+    background-color: #58595b;
+    border-radius: 20px;
+    padding: 15px 18px;
+  }
+  .about-boxes .box:first-child {
+    margin-left: 10px;
+  }
+}
+@media (min-width: 767px) and (max-width: 1279px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 13px;
+  }
+  .left-side .lang-icon {
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    font-size: 15px;
+  }
+  /* Stats Section */
+  .header-stat h3 {
+    font-size: 18px;
+  }
+  .stat-box span {
+    font-size: 12px;
+  }
+  .stat-box h3 {
+    font-size: 24px;
+  }
+
+  .stat-content {
+    padding: 22px 14px;
+  }
+  .header-stat span {
+    font-size: 11px;
+  }
+  .info-stat .stat-box {
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+  }
+
+  /* Goals Section */
+
+  .goal-content .data-span span {
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .goal-content .num-span span {
+    font-size: 9px;
+    width: 27px;
+    height: 27px;
+  }
+  .goal-content {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .goal-content {
+    margin-bottom: 9px;
+  }
+  .goal-content .num-span span:before {
+    transform: translate(-50%, -50%) !important;
+  }
+  /* Download Section */
+  .info-downl span:nth-child(2) {
+    font-size: 12px;
+  }
+  .icon-downl img {
+    width: 25px;
+  }
+  .icon-downl {
+    font-size: 30px;
+  }
+  .info-downl span:first-child {
+    font-size: 14px;
+  }
+  .download-info p {
+    font-size: 15px;
+  }
+  .goal-content .num-span span {
+    line-height: 23px;
+    width: 24px;
+    height: 24px;
+  }
+  .goal-content .num-span span:before {
+    width: 33px;
+
+    height: 33px;
+  }
+  /************** ContactUS  Section ********************/
+  .contact-location .title-phone,
+  .contact-location .title-loca {
+    font-size: 12px;
+  }
+  .location-con .row {
+    margin-bottom: 10px;
+  }
+  .contact-img {
+    margin: auto;
+  }
+
+  /* Footer */
+  footer .download-boxes {
+    flex-direction: column !important;
+  }
+  .download-footer .download-box {
+    font-size: 15px;
+    padding: 2px 20px;
+    margin-bottom: 6px;
+  }
+  .info-downl span:nth-child(2) {
+    font-size: 15px;
+  }
+  .info-downl span:first-child {
+    font-size: 14px;
+  }
+  .icon-downl {
+    font-size: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .nav-menu li a {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  .nav-menu li {
+    margin-left: 3px;
+  }
+  .main-slider {
+    padding-top: 18px;
+  }
+
+  .main-slider-content .owl-nav button:first-child {
+    right: 5.7%;
+    top: 44%;
+  }
+  .main-slider-content .owl-nav button:nth-child(2) {
+    left: 5.7%;
+    top: 44%;
+  }
+
+  .main-slider .slider-info {
+    width: 60% !important;
+    right: 4.5%;
+    bottom: 6%;
+  }
+  .main-slider .slider-info h3 {
+    font-size: 20px;
+  }
+  .main-slider .slider-info p {
+    font-size: 15px;
+  }
+  .goal-content .data-span {
+    padding-right: 13px;
+  }
+  /* Groups Section */
+
+  .box-group span:first-child {
+    width: 63px;
+    height: 63px;
+  }
+  .box-group span:first-child img {
+    width: 32px;
+  }
+  .box-group {
+    padding-top: 32px;
+  }
+  .groups .owl-nav button:nth-child(1) {
+    right: -4.5%;
+  }
+  .groups .owl-nav button:nth-child(2) {
+    left: -4.5%;
+  }
+  .main-slider-content .owl-nav button,
+  .groups .owl-nav button {
+    width: 32px;
+    height: 32px;
+    font-size: 12px !important;
+  }
+  .download-img img {
+    transform: translateY(0px);
+  } /************** ContactUS  Section ********************/
+
+  .location-con {
+    display: flex;
+    flex-direction: column;
+  }
+  .statistics .container-div {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .nav-menu li a {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  .nav-menu {
+    position: absolute;
+    top: 0px;
+    right: -300px;
+    transition: 0.3s;
+    height: 100vh;
+    min-width: 200px !important;
+    box-shadow: 1px -1px 5px rgba(0, 0, 0, 0.2);
+
+    z-index: 5000;
+    background-color: #fff;
+    padding-right: 11px;
+  }
+
+  .modal-container {
+    position: fixed;
+    top: 69px;
+    right: 0px;
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    transition: 0.3s;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .container-div {
+    width: 100%;
+  }
+  .main-slider-content .owl-nav button {
+    transform: translateY(0%) !important;
+  }
+  .main-slider-content .owl-dots {
+    display: none;
+  }
+  .main-slider-content .owl-nav button:first-child {
+    right: 32px;
+    top: 44%;
+  }
+  .main-slider-content .owl-nav button:nth-child(2) {
+    left: 32px;
+    top: 44%;
+  }
+
+  .main-slider .slider-info {
+    width: 60% !important;
+    right: 4.5%;
+    bottom: 6%;
+  }
+  .main-slider .slider-info h3 {
+    font-size: 20px;
+  }
+  .main-slider .slider-info p {
+    font-size: 15px;
+  }
+  .main-slider-content .owl-nav button {
+    width: 30px;
+    height: 30px;
+    font-size: 12px !important;
+  }
+  /************************ Stat Section *******************/
+  .stat-content {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .header-stat {
+    margin-bottom: 23px !important;
+  }
+  /************************* Goals Section *************************/
+
+  .goal-content .data-span {
+    padding-right: 0px;
+  }
+  .goal-content .data-span span {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .goal-content .num-span span {
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+  }
+  /* Groups Section */
+
+  .box-group span:first-child {
+    width: 70px;
+    height: 70px;
+  }
+  .box-group span:first-child img {
+    width: 32px;
+  }
+  .box-group {
+    padding-top: 32px;
+  }
+  .groups .owl-nav button:nth-child(1) {
+    right: -4.5%;
+  }
+  .groups .owl-nav button:nth-child(2) {
+    left: -4.5%;
+  }
+  .download-img img {
+    width: 80%;
+  }
+  /* Footer */
+
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 575px) {
+  .main-slider .slider-info {
+    width: 60% !important;
+    right: 4.5%;
+    bottom: 6%;
+  }
+  .main-slider .slider-info h3 {
+    font-size: 20px;
+  }
+  .main-slider .slider-info p {
+    font-size: 15px;
+  }
+
+  .main-slider-content .owl-nav button {
+  }
+  .main-slider-content .owl-nav button,
+  .groups .owl-nav button {
+    position: inherit;
+  }
+  .groups .owl-nav {
+    margin-top: 30px !important;
+  }
+  .main-slider .slider-info {
+    width: 70% !important;
+    right: 5.5%;
+    bottom: 7%;
+  }
+  .main-slider .slider-info h3 {
+    font-size: 20px;
+  }
+  .main-slider .slider-info p {
+    font-size: 15px;
+  }
+  .main-slider-content .owl-nav button {
+    width: 30px;
+    height: 30px;
+    font-size: 12px !important;
+  }
+  .about-boxes .box:first-child {
+    margin-left: 0px;
+  }
+  .download-img img {
+    transform: translateY(0px);
+    width: 100%;
+  }
+}
+@media (max-width: 479px) {
+  .main-slider-content .owl-nav button {
+    width: 27px;
+    height: 27px;
+    font-size: 10px !important;
+  }
+  .main-slider .slider-info {
+    width: 60% !important;
+    right: 4.5%;
+    bottom: 6%;
+  }
+  .main-slider .slider-info h3 {
+    font-size: 14px;
+  }
+  .main-slider .slider-info p {
+    font-size: 11px;
+  }
+  /* About Section */
+  .about-info h3 span {
+    margin-bottom: 7px;
+    font-size: 25px;
+  }
+  .about-info p {
+    font-size: 14px;
+  }
+  .box-content p {
+    font-size: 12px;
+  }
+  .about-boxes .box {
+    margin-left: 0px;
+    background-color: #58595b;
+    border-radius: 20px;
+    padding: 15px 18px;
+  }
+  .about-img a {
+    padding: 8px;
+  }
+  /* Stats Section */
+  .header-stat h3 {
+    font-size: 26px;
+  }
+  .stat-box span {
+    font-size: 13px;
+  }
+  .stat-box h3 {
+    font-size: 28px;
+  }
+
+  .stat-content {
+    padding: 40px 23px;
+  }
+  .header-stat span {
+    font-size: 13px;
+  }
+  /* Goals Section */
+
+  .goal-content .data-span {
+    padding-right: 13px;
+  }
+  .goal-content .data-span span {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .goal-content .num-span span:before {
+    left: 50%;
+    top: 50%;
+    width: 38px;
+    transform: translate(-50%, -50%);
+    height: 38px;
+  }
+  /* Groups Section */
+  .box-group span:first-child {
+    width: 70px;
+    height: 70px;
+  }
+  .box-group span:first-child img {
+    width: 32px;
+  }
+  .box-group {
+    padding-top: 32px;
+  }
+  /* Download Section */
+  .info-downl span:nth-child(2) {
+    font-size: 12px;
+  }
+  .icon-downl img {
+    width: 25px;
+  }
+  .icon-downl {
+    font-size: 30px;
+  }
+  .info-downl span:first-child {
+    font-size: 14px;
+  }
+
+  /************** ContactUS  Section ********************/
+  .contact-location .title-phone,
+  .contact-location .title-loca {
+    font-size: 13px;
+  }
+
+  /* Footer */
+  footer .logo img {
+    width: 77px;
+    margin-bottom: 11px;
+  }
+  .footer-info a {
+    font-size: 13px;
+  }
+}
+@media (max-width: 374px) {
+  .main-slider .slider-info {
+    width: 80% !important;
+    right: 3.5%;
+    bottom: 4%;
+  }
+  .main-slider .slider-info h3 {
+    font-size: 14px;
+  }
+  .main-slider .slider-info p {
+    font-size: 10px;
+  }
+  .main-slider-content .owl-nav button {
+    width: 25px;
+    height: 25px;
+    font-size: 10px !important;
+  }
+
+  /* About Section */
+  .about-info h3 span {
+    margin-bottom: 7px;
+    font-size: 20px;
+  }
+  .about-info p {
+    font-size: 12px;
+  }
+  .box-content p {
+    font-size: 11px;
+  }
+  .about-boxes .box {
+    margin-left: 0px;
+    background-color: #58595b;
+    border-radius: 20px;
+    padding: 15px 18px;
+  }
+  .about-img a {
+    padding: 8px;
+  }
+
+  /* Stats Section */
+  .header-stat h3 {
+    font-size: 23px;
+  }
+  .stat-box span {
+    font-size: 13px;
+  }
+  .stat-box h3 {
+    font-size: 25px;
+  }
+
+  .stat-content {
+    padding: 40px 23px;
+  }
+
+  /* Goals Section */
+
+  .goal-content .data-span {
+    padding-right: 13px;
+  }
+  .goal-content .data-span span {
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .goal-content .num-span span {
+    font-size: 9px;
+    width: 27px;
+    height: 27px;
+  }
+  .goal-content .num-span span:before {
+    left: 50%;
+    top: 50%;
+    transform: translate(-51%, -51%);
+    width: 36px;
+    height: 36px;
+  }
+  /* Groups Section */
+
+  .box-group span:first-child {
+    width: 60px;
+    height: 60px;
+  }
+  .box-group span:first-child img {
+    width: 32px;
+  }
+  .box-group {
+    padding-top: 21px;
+  }
+  .box-group span:nth-child(2) {
+    font-size: 13px;
+  }
+  /* Download Section */
+  .info-downl span:nth-child(2) {
+    font-size: 16px;
+  }
+  .icon-downl img {
+    width: 25px;
+  }
+  .icon-downl {
+    font-size: 30px;
+  }
+  .info-downl span:first-child {
+    font-size: 14px;
+  }
+  .download-boxes {
+    flex-direction: column;
+  }
+  .download-boxes a {
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  /************** ContactUS  Section ********************/
+  .contact-location .title-phone,
+  .contact-location .title-loca {
+    font-size: 11px;
+  }
+  .icon-loca,
+  .icon-phone {
+    width: 25px;
+    height: 25px;
+    line-height: 19px;
+  }
+  .icon-loca img,
+  .icon-phone img {
+    width: 10px !important;
+  }
+  .contactUS .contact-header h6 {
+    font-size: 13px;
+  }
+}
